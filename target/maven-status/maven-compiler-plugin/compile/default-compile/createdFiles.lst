@@ -1,0 +1,5 @@
+com\complain\my\common\dao\CommonDAO.class
+com\complain\my\TestWS.class
+com\complain\my\common\dao\AbstractCommonDAOImpl.class
+com\complain\my\common\service\AbstractCommonBOImpl.class
+com\complain\my\common\service\CommonBO.class
