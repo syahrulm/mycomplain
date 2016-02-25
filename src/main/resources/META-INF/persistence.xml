@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+    <persistence-unit name="persistenceUnit">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <properties>
+            <property name="javax.persistence.jdbc.url" value="${db.url}/mycomplain"/>
+            <property name="javax.persistence.jdbc.driver" value="${db.driver.class}"/>
+            <property name="javax.persistence.jdbc.user" value="${db.username}"/>
+            <property name="javax.persistence.jdbc.password" value="${db.password}"/>
+        </properties>
+    </persistence-unit>
+</persistence>
