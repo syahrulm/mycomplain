@@ -6,3 +6,4 @@ BEGIN
     END IF;
 END $$;
 
+DROP DATABASE IF EXISTS mycomplain;
